@@ -72,9 +72,9 @@ int main() {
                 printf("result is %d\n",a*a*a);
                 break;
             case 'i':
-                printf("Enter an integer: ");
+                printf("Enter a non zero integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("result is %d\n",1/a);
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
